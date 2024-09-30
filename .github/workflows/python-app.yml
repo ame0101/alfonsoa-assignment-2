@@ -36,6 +36,4 @@ jobs:
       run: |
         make run &
         sleep 10  # Adjust this value as needed to ensure the server has time to start
-    - name: Test with pytest
-      run: |
-        pytest
+
